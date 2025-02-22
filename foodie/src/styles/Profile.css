@@ -1,0 +1,29 @@
+.profile {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .profile h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .profile p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .profile button {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .profile button:hover {
+    background-color: #e04d2f;
+  }
+  

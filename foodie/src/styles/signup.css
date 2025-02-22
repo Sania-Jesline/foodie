@@ -1,0 +1,74 @@
+/* Full-screen background */
+.signup-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../assets/signup-bg.avif") no-repeat center center; /* Added semicolon */
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  
+  /* Signup box */
+  .signup-box {
+    width: 400px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Signup title */
+  .signup-box h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* Input fields */
+  .signup-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  /* Signup button */
+  .signup-box button {
+    width: 100%;
+    padding: 12px;
+    background: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .signup-box button:hover {
+    background: #e64a19;
+  }
+  
+  /* Already have an account link */
+  .signup-box p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .signup-box a {
+    color: #ff5733;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .signup-box a:hover {
+    text-decoration: underline;
+  }
+  
